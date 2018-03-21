@@ -117,26 +117,26 @@ Please follow these steps:
     - The "Import Project From Gradle" window should pop up.
     - Select the following options:
       - The gradle project path should be the viren_mody_guillermo_rojas_hernandez_dhananjay_gupta_hw1/project1 path
-      - Select ìUse auto-importî
-      - Select ìCreate separate module per source setî
-      - Select ìUse default gradle wrapperî
+      - Select ‚ÄúUse auto-import‚Äù
+      - Select ‚ÄúCreate separate module per source set‚Äù
+      - Select ‚ÄúUse default gradle wrapper‚Äù
       - For Gradle JVM, use the 1.8 Java version 1.8 JDK
-      - Project Format: ì.ipr (file based)î
+      - Project Format: ‚Äú.ipr (file based)‚Äù
     - Select OK
     
   + Open up Main.java file and modify the variables under the TODO comments in both the customJenkinsJobXML function and the Main function
 
     - `customJenkinsJobXML()`
-    - set `UNDERSTAND_PATH` to the location of the Understand installation, example: ì/home/virenmody/Downloads/scitools/bin/linux64/î
-    - set `CLONED_REPOS_BASE_PATH` to the directory where you want cloned repositories installed locally, example: ì/home/virenmody/ClonedRepos/î
+    - set `UNDERSTAND_PATH` to the location of the Understand installation, example: ‚Äú/home/virenmody/Downloads/scitools/bin/linux64/‚Äù
+    - set `CLONED_REPOS_BASE_PATH` to the directory where you want cloned repositories installed locally, example: ‚Äú/home/virenmody/ClonedRepos/‚Äù
     - `Main()`
     - set `GITLAB_URL` to IP address of the GitLab server, example: "http://10.0.2.15"
-    - set `GITLAB_API_ACCESS_TOKEN` to the access token from GitLab, example: ìRDtCnzMezmjpih4u6VDmî
-    - set `GITLAB_USERNAME` to username used to access Gitlab server, example: ìrootî
-    - set `GITLAB_PASSWORD` to password used to access Gitlab server, example: ìrootrootî
+    - set `GITLAB_API_ACCESS_TOKEN` to the access token from GitLab, example: ‚ÄúRDtCnzMezmjpih4u6VDm‚Äù
+    - set `GITLAB_USERNAME` to username used to access Gitlab server, example: ‚Äúroot‚Äù
+    - set `GITLAB_PASSWORD` to password used to access Gitlab server, example: ‚Äúrootroot‚Äù
     - set `JENKINS_URL` to Jenkins server url from configuration, Example: "http://10.0.2.15:8081"
-    - Set `JENKINS_USERNAME` to Jenkins server username, Example: ìadminî
-    - Set `JENKINS_PASSWORD` to Jenkins server password, Example: ìadminî
+    - Set `JENKINS_USERNAME` to Jenkins server username, Example: ‚Äúadmin‚Äù
+    - Set `JENKINS_PASSWORD` to Jenkins server password, Example: ‚Äúadmin‚Äù
     - Set `LOCAL_PATH` to the directory you want to save cloned repos
     - Select Build Program
     - Select Run
