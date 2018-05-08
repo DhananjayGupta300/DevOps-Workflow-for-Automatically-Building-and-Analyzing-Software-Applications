@@ -1,0 +1,14 @@
+# untracked files
+project1/out/
+project1.iml
+.idea/
+
+#Gradle build untracked files
+project1/.gradle/
+project1/build/
+project1/project1.ipr
+project1/project1.iws
+project1/project1_main.iml
+project1/project1_test.iml
+
+

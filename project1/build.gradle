@@ -1,0 +1,25 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+sourceCompatibility = 1.8
+mainClassName = 'Main'
+
+sourceSets {
+    main {
+        java.srcDirs = ['src']
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.eclipse.mylyn.github', name: 'org.eclipse.egit.github.core', version: '2.1.5'
+
+    compile group: 'org.eclipse.jgit', name: 'org.eclipse.jgit', version: '4.11.0.201803080745-r'
+
+    compile group: 'org.gitlab4j', name: 'gitlab4j-api', version: '4.8.5'
+
+    compile group: 'com.offbytwo.jenkins', name: 'jenkins-client', version: '0.3.7'
+}
