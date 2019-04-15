@@ -1,4 +1,4 @@
-# Authors: Dhananjay Gupta,Viren Mody, Guillermo Rojas Hernandez
+# Authors: Dhananjay Gupta
 
 ## Project Description:
 This project simulates the DevOps environment from developers pushing their code to automated building, testing and analyzing of code. Our Java project simulates this process by downloading repositories from GitHub, uploading each repository to a local GitLab server, which triggers the build process and code analysis  in the locally installed Jenkins server. Our Jenkins server configuration built, tested and analyzed project code using JaCoCo and Understand. Our implementation of the DevOps environment focused on Java Maven applications containing unit tests and JaCoCo support.     
